@@ -56,7 +56,31 @@ You have run sage and now you're looking at
 └────────────────────────────────────────────────────────────────────┘
 sage:
 ```
+This is the default interface for sage and it is not very user friendly.
+Again, the overwhelming majority of Sage users will not work with sage this
+way. To get out of this type `exit` at the `sage:` prompt.
+
+Fortunately, Sage provides a graphical option and you can read about that
+in the [Launching
+SageMath](https://doc.sagemath.org/html/en/installation/launching.html#sec-launching)
+instructions. Unfortunately, these instructions need a bit of
+clarification and in some cases are just wrong. 
 
 ### Jupyter Interface
+Sage cleverly takes advantage of your web browser to construct its user
+interface. It uses a general, browser-based framework called
+[Jupyter](https://jupyter.org/) to accomplish this. The [Launching
+SageMath](https://doc.sagemath.org/html/en/installation/launching.html#sec-launching) shows, albeit incompletely, how to use Sage in jupyter.
+
+Assuming that you've installed Sage following the instructions above, run
+the following commands at the WSL Ubuntu prompt:
+
+```python
+$ conda activate sage
+$ sage -n jupyter
+```
+The result will be a flood of text on the screen
+
+
 
 
