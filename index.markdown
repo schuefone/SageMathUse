@@ -24,9 +24,39 @@ Guide](https://doc.sagemath.org/html/en/installation/index.html).
 
 ## macOS
 The Sage Installation Guide is pretty effective and straightforward for
-learning how to install Sage on your Apple mac laptop. 
+learning how to install Sage on your Apple mac laptop. About the only thing
+to note is that in these instructions, you are asked: **Do you want to do
+SageMath development?** Overwhelmingly, the answer to this question is
+**No**. As a result, overwhemingly people should follow the 2nd section:
+**No Development**. The rest is pretty straightforward for mac users that
+have ever downloaded and installed a piece of software on their computer.
 
 ## Windows
 The Sage Installation Guide is _ok_ for learning how to install Sage on
 your Windows computer. However, it is quite complicated and this guide
 attempts to fill in some of the gaps in the installation guide.
+
+### WSL
+The first thing to note is that in these instructions, you are asked: **Do
+you want to do SageMath development?** Overwhelmingly, the answer to this
+question is **No**. As a result, overwhemingly people should follow the 2nd
+section: **No Development**. 
+
+**Note:** Sage relies on the existence of the Windows Subsystem for Linux
+(WSL) on your computer. As a result, you're going to need about 40Gb of
+free space on your computer to install Sage. 
+
+Follow the Sage Installation Guide through to the grey box showing you how
+to activate and run sage. It's at this point that things get challenging.
+You have run sage and now you're looking at 
+```python
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.4, Release Date: 2024-07-19                    │
+│ Using Python 3.11.11. Type "help()" for help.                      │
+└────────────────────────────────────────────────────────────────────┘
+sage:
+```
+
+### Jupyter Interface
+
+
